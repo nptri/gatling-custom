@@ -1,0 +1,1570 @@
+2024.11.30 22:31:15 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\ABC\Desktop\gatling' for client Visual Studio Code 1.88.0.
+2024.11.30 22:31:16 INFO  time: initialize in 0.17s
+22:31:17.941 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+22:31:17.948 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+22:31:17.949 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+22:31:17.954 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+22:31:17.955 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 ...
+22:31:17.955 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+22:31:17.955 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+22:31:17.956 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44 ...
+22:31:17.957 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/ABC/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+22:31:17.965 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+22:31:17.965 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+22:31:17.965 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+22:31:17.965 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+22:31:17.966 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+22:31:17.966 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+22:31:17.973 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:31:17.973 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+22:31:17.975 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+22:31:17.975 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+22:31:17.975 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+22:31:18.137 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\ABC\Desktop\gatling\.metals\metals (H2 2.2)
+22:31:18.137 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+22:31:18.137 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+22:31:18.140 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+22:31:18.140 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+22:31:18.150 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+22:31:18.152 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+22:31:18.153 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:31:18.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+22:31:18.179 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:31:18.209 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:31:18.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:31:18.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:31:18.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:31:18.210 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:31:18.211 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:31:18.211 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:31:18.212 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:31:18.212 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:31:18.212 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:31:18.222 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+22:31:18.229 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.060s)
+22:31:18.235 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+22:31:18.244 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+22:31:18.250 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+22:31:18.262 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+22:31:18.263 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+22:31:18.264 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+22:31:18.271 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.271 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+22:31:18.275 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.275 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+22:31:18.288 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+22:31:18.288 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+22:31:18.293 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+22:31:18.298 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+22:31:18.303 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+22:31:18.313 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+22:31:18.314 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+22:31:18.316 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+22:31:18.317 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+22:31:18.319 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+22:31:18.322 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.322 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+22:31:18.324 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.324 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+22:31:18.325 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.326 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+22:31:18.327 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.327 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+22:31:18.328 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.328 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+22:31:18.331 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+22:31:18.341 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+22:31:18.346 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+22:31:18.347 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+22:31:18.348 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+22:31:18.348 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+22:31:18.350 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.350 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+22:31:18.356 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+22:31:18.388 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+22:31:18.389 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+22:31:18.390 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+22:31:18.392 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+22:31:18.392 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+22:31:18.393 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+22:31:18.394 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+22:31:18.406 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.406 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+22:31:18.417 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.417 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+22:31:18.420 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.420 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+22:31:18.439 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+22:31:18.447 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+22:31:18.450 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+22:31:18.450 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+22:31:18.451 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+22:31:18.451 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+22:31:18.454 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+22:31:18.454 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+22:31:18.457 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+22:31:18.469 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.047s)
+22:31:18.504 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 49 of 100M
+2024.11.30 22:31:19 WARN  Build server is not auto-connectable.
+2024.11.30 22:31:28 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.8 -jar C:\Users\ABC\AppData\Local\Temp\metals3567860849388962649\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 22:31:30 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.8  (this may take some time)...
+2024.11.30 22:31:56 INFO  no build target found for C:\Users\ABC\Desktop\gatling\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2024.11.30 22:31:57 INFO  [info] Updated file C:\Users\ABC\Desktop\gatling\project\build.properties: set sbt.version to 1.9.8
+2024.11.30 22:31:57 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 22:32:08 INFO  time: code lens generation in 38s
+2024.11.30 22:32:08 INFO  time: code lens generation in 47s
+2024.11.30 22:32:08 INFO  time: code lens generation in 4.18s
+2024.11.30 22:32:08 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 22:32:11 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 22:32:18 INFO  [info] loading settings for project gatling-build from metals.sbt ...
+2024.11.30 22:32:18 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 22:32:20 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala
+2024.11.30 22:32:25 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:32:26 INFO  time: code lens generation in 1.65s
+2024.11.30 22:32:35 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/metals.sbt
+Nov 30, 2024 10:32:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2024.11.30 22:32:37 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 22:32:37 INFO  [success] Total time: 18 s, completed Nov 30, 2024, 10:32:37 PM
+2024.11.30 22:32:42 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 22:32:42 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 22:32:44 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/plugins.sbt
+2024.11.30 22:33:04 INFO  [success] Generated .bloop\root.json
+2024.11.30 22:33:04 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 22:33:04 INFO  [success] Total time: 21 s, completed Nov 30, 2024, 10:33:04 PM
+2024.11.30 22:33:04 INFO  time: ran 'sbt bloopInstall' in 1m36s
+2024.11.30 22:33:04 INFO  Attempting to connect to the build server...
+2024.11.30 22:33:04 INFO  Setting up current java home C:\Program Files\Java\jdk-18.0.1.1 in C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:33:20 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/plugins.sbt
+2024.11.30 22:33:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:33:40 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/plugins.sbt
+2024.11.30 22:33:41 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/plugins.sbt
+2024.11.30 22:33:42 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/plugins.sbt
+2024.11.30 22:33:43 WARN  no build target for: C:\Users\ABC\Desktop\gatling\project\plugins.sbt
+2024.11.30 22:33:43 WARN  Could not find semantic tokens for: file:///C:/Users/ABC/Desktop/gatling/project/plugins.sbt
+2024.11.30 22:33:43 INFO  Attempting to connect to the build server...
+2024.11.30 22:33:43 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:33:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:33:44 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals2218185512035219242\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 22:33:49 INFO  time: Connected to build server in 44s
+2024.11.30 22:33:49 INFO  Connected to Build server: Bloop v1.5.15
+2024.11.30 22:33:50 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 22:33:51 INFO  time: Imported build in 1.51s
+2024.11.30 22:33:58 INFO  compiling root (1 scala source)
+2024.11.30 22:34:03 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 22:34:08 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 22:34:22 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 22:34:22 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 22:34:29 INFO  no build target found for C:\Users\ABC\Desktop\gatling\project\plugins.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 22:34:30 INFO  time: compiled root in 31s
+Nov 30, 2024 10:34:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+Nov 30, 2024 10:34:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+2024.11.30 22:34:31 INFO  user cancelled sbt bloopInstall
+Nov 30, 2024 10:34:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+2024.11.30 22:34:31 INFO  time: ran 'sbt bloopInstall' in 46s
+2024.11.30 22:34:35 INFO  time: code lens generation in 42s
+2024.11.30 22:35:06 INFO  time: indexed workspace in 1m15s
+2024.11.30 22:35:07 WARN  no build target for: C:\Users\ABC\Desktop\gatling\project\plugins.sbt
+2024.11.30 22:35:07 INFO  compiling root (1 scala source)
+2024.11.30 22:35:11 INFO  time: compiled root in 3.31s
+Nov 30, 2024 10:35:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 148
+Nov 30, 2024 10:35:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+Nov 30, 2024 10:35:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 168
+Nov 30, 2024 10:35:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 171
+Nov 30, 2024 10:35:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 175
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 179
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 182
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 176
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 178
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 180
+Nov 30, 2024 10:35:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 188
+2024.11.30 22:35:58 INFO  compiling root (1 scala source)
+2024.11.30 22:35:58 INFO  time: compiled root in 0.65s
+2024.11.30 22:36:49 INFO  compiling root (1 scala source)
+2024.11.30 22:36:49 INFO  time: compiled root in 0.51s
+2024.11.30 22:38:55 INFO  compiling root (1 scala source)
+2024.11.30 22:38:55 INFO  time: compiled root in 0.55s
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 283
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 282
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 285
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 289
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 286
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 288
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 290
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 291
+Nov 30, 2024 10:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+2024.11.30 22:39:16 INFO  compiling root (1 scala source)
+2024.11.30 22:39:16 INFO  time: compiled root in 0.54s
+Nov 30, 2024 10:39:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 334
+2024.11.30 22:39:23 INFO  compiling root (1 scala source)
+2024.11.30 22:39:23 INFO  time: compiled root in 0.55s
+2024.11.30 22:40:59 INFO  compiling root (1 scala source)
+2024.11.30 22:40:59 INFO  time: compiled root in 0.78s
+2024.11.30 22:41:31 INFO  compiling root (1 scala source)
+2024.11.30 22:41:31 INFO  time: compiled root in 0.41s
+2024.11.30 22:43:26 INFO  compiling root (1 scala source)
+2024.11.30 22:43:26 INFO  time: compiled root in 0.45s
+2024.11.30 22:44:39 INFO  compiling root (1 scala source)
+2024.11.30 22:44:39 INFO  time: compiled root in 0.83s
+2024.11.30 22:44:42 INFO  compiling root (1 scala source)
+2024.11.30 22:44:42 INFO  time: compiled root in 0.66s
+2024.11.30 22:44:57 INFO  compiling root (1 scala source)
+2024.11.30 22:44:57 INFO  time: compiled root in 0.45s
+2024.11.30 22:45:48 INFO  compiling root (1 scala source)
+2024.11.30 22:45:48 INFO  time: compiled root in 0.43s
+2024.11.30 22:45:57 INFO  compiling root (1 scala source)
+2024.11.30 22:45:57 INFO  time: compiled root in 0.53s
+Nov 30, 2024 10:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 520
+2024.11.30 22:46:36 INFO  compiling root (1 scala source)
+2024.11.30 22:46:36 INFO  time: compiled root in 0.34s
+2024.11.30 22:46:46 INFO  compiling root (1 scala source)
+2024.11.30 22:46:46 INFO  time: compiled root in 0.56s
+Nov 30, 2024 10:47:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 596
+2024.11.30 22:48:13 INFO  compiling root (1 scala source)
+2024.11.30 22:48:13 INFO  time: compiled root in 0.4s
+2024.11.30 22:48:16 INFO  compiling root (1 scala source)
+2024.11.30 22:48:16 INFO  time: compiled root in 0.29s
+2024.11.30 22:48:22 INFO  compiling root (1 scala source)
+2024.11.30 22:48:22 INFO  time: compiled root in 0.42s
+2024.11.30 22:48:26 INFO  compiling root (1 scala source)
+2024.11.30 22:48:26 INFO  time: compiled root in 0.31s
+2024.11.30 22:48:38 INFO  compiling root (1 scala source)
+2024.11.30 22:48:38 INFO  time: compiled root in 0.47s
+2024.11.30 22:48:43 INFO  compiling root (1 scala source)
+2024.11.30 22:48:43 INFO  time: compiled root in 0.37s
+2024.11.30 22:48:48 INFO  compiling root (1 scala source)
+2024.11.30 22:48:48 INFO  time: compiled root in 0.46s
+2024.11.30 22:49:37 INFO  compiling root (1 scala source)
+2024.11.30 22:49:42 INFO  time: compiled root in 4.47s
+2024.11.30 22:50:00 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:50:06 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:50:11 INFO  compiling root (1 scala source)
+2024.11.30 22:50:14 INFO  time: compiled root in 2.13s
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 870
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 871
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 872
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 873
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 875
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 INFO  compiling root (1 scala source)
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+2024.11.30 22:50:19 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 882
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 884
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 883
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 881
+Nov 30, 2024 10:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 887
+2024.11.30 22:50:20 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:50:22 INFO  time: compiled root in 2.45s
+Nov 30, 2024 10:50:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 913
+Nov 30, 2024 10:51:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 924
+2024.11.30 22:51:19 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:51:30 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:51:32 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:52:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.11.30 22:52:14 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:52:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-52-25-260.md
+2024.11.30 22:52:29 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:53:01 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:53:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1264
+2024.11.30 22:53:26 INFO  compiling root (1 scala source)
+2024.11.30 22:53:28 INFO  time: compiled root in 2.6s
+Nov 30, 2024 10:53:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-31-170.md
+2024.11.30 22:53:31 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:53:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-31-773.md
+Nov 30, 2024 10:53:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-31-853.md
+2024.11.30 22:53:32 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:53:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-32-917.md
+Nov 30, 2024 10:53:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-39-313.md
+Nov 30, 2024 10:53:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-39-815.md
+2024.11.30 22:53:40 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:53:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-40-599.md
+Nov 30, 2024 10:53:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1342
+Nov 30, 2024 10:53:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1354
+Nov 30, 2024 10:53:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-47-085.md
+2024.11.30 22:53:49 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:53:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-49-386.md
+Nov 30, 2024 10:53:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-53-49-444.md
+Nov 30, 2024 10:54:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-54-30-308.md
+Nov 30, 2024 10:54:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1377
+2024.11.30 22:54:39 INFO  compiling root (1 scala source)
+Nov 30, 2024 10:54:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1419
+Nov 30, 2024 10:54:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_22-54-40-810.md
+2024.11.30 22:54:42 INFO  time: compiled root in 3.23s
+2024.11.30 22:54:43 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:54:48 INFO  compiling root (1 scala source)
+Nov 30, 2024 10:54:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1469
+2024.11.30 22:54:50 INFO  time: compiled root in 1.81s
+2024.11.30 22:54:51 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:54:53 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:55:09 WARN  Using indexes to guess the definition of CustomCsvFeeder
+2024.11.30 22:55:09 WARN  Using indexes to guess the definition of CustomCsvFeeder
+Nov 30, 2024 10:55:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1501
+Nov 30, 2024 10:55:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1509
+2024.11.30 22:55:30 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:56:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1522
+2024.11.30 22:56:30 INFO  time: code lens generation in 2.84s
+2024.11.30 22:56:32 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals3724200391634218112\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 22:56:37 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 22:56:39 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 22:56:41 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 22:56:43 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 22:56:43 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 22:56:46 INFO  user cancelled sbt bloopInstall
+2024.11.30 22:56:46 INFO  time: ran 'sbt bloopInstall' in 13s
+Nov 30, 2024 10:56:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1572
+2024.11.30 22:57:17 INFO  time: code lens generation in 1.37s
+2024.11.30 22:57:21 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals17328708930522134989\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 22:57:26 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 22:57:27 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 22:57:29 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 22:57:32 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 22:57:32 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 22:57:42 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 22:57:42 INFO  [success] Total time: 9 s, completed Nov 30, 2024, 10:57:42 PM
+2024.11.30 22:57:42 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 22:57:43 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 22:57:46 INFO  skipping build import with status 'Started'
+2024.11.30 22:57:48 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 22:57:48 INFO  [success] Total time: 5 s, completed Nov 30, 2024, 10:57:48 PM
+2024.11.30 22:57:55 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 22:57:55 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 22:58:10 INFO  [success] Generated .bloop\root.json
+2024.11.30 22:58:10 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 22:58:10 INFO  [success] Total time: 15 s, completed Nov 30, 2024, 10:58:10 PM
+2024.11.30 22:58:10 INFO  time: ran 'sbt bloopInstall' in 48s
+2024.11.30 22:58:10 INFO  Disconnecting from Bloop session...
+2024.11.30 22:58:10 INFO  Shut down connection with build server.
+2024.11.30 22:58:10 INFO  Shut down connection with build server.
+2024.11.30 22:58:10 INFO  Attempting to connect to the build server...
+2024.11.30 22:58:10 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:58:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:58:10 INFO  Attempting to connect to the build server...
+2024.11.30 22:58:10 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:58:10 INFO  Attempting to connect to the build server...
+2024.11.30 22:58:10 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:58:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:58:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:58:10 INFO  time: Connected to build server in 0.5s
+2024.11.30 22:58:10 INFO  Connected to Build server: Bloop v1.5.15
+2024.11.30 22:58:11 INFO  time: Imported build in 0.3s
+2024.11.30 22:58:18 INFO  time: indexed workspace in 7.45s
+2024.11.30 22:58:19 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 22:58:27 INFO  time: code lens generation in 7.75s
+Nov 30, 2024 10:58:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1675
+2024.11.30 22:58:38 INFO  Disconnecting from Bloop session...
+2024.11.30 22:58:38 INFO  Shut down connection with build server.
+2024.11.30 22:58:38 INFO  Shut down connection with build server.
+2024.11.30 22:58:38 INFO  Shut down connection with build server.
+2024.11.30 22:58:38 INFO  Attempting to connect to the build server...
+2024.11.30 22:58:38 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+Nov 30, 2024 10:58:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.Exception: No build server for target IDs file:/C:/Users/ABC/Desktop/gatling/project/?id=gatling-build, file:/C:/Users/ABC/Desktop/gatling/?id=root-test, file:/C:/Users/ABC/Desktop/gatling/project/project/?id=gatling-build-build, file:/C:/Users/ABC/Desktop/gatling/?id=root
+java.util.concurrent.CompletionException: java.lang.Exception: No build server for target IDs file:/C:/Users/ABC/Desktop/gatling/project/?id=gatling-build, file:/C:/Users/ABC/Desktop/gatling/?id=root-test, file:/C:/Users/ABC/Desktop/gatling/project/project/?id=gatling-build-build, file:/C:/Users/ABC/Desktop/gatling/?id=root
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.Exception: No build server for target IDs file:/C:/Users/ABC/Desktop/gatling/project/?id=gatling-build, file:/C:/Users/ABC/Desktop/gatling/?id=root-test, file:/C:/Users/ABC/Desktop/gatling/project/project/?id=gatling-build-build, file:/C:/Users/ABC/Desktop/gatling/?id=root
+	at scala.meta.internal.metals.Compilations.clean$1(Compilations.scala:158)
+	at scala.meta.internal.metals.Compilations.$anonfun$recompileAll$6(Compilations.scala:178)
+	at scala.concurrent.Future$.$anonfun$traverse$1(Future.scala:870)
+	at scala.collection.IterableOnceOps.foldLeft(IterableOnce.scala:676)
+	at scala.collection.IterableOnceOps.foldLeft$(IterableOnce.scala:670)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1300)
+	at scala.concurrent.Future$.traverse(Future.scala:870)
+	at scala.meta.internal.metals.Compilations.recompileAll(Compilations.scala:177)
+	at scala.meta.internal.metals.MetalsLspService.cleanCompile(MetalsLspService.scala:1811)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$22(WorkspaceLspService.scala:787)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$onCurrentFolder$4(WorkspaceLspService.scala:295)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2024.11.30 22:58:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:58:44 INFO  Attempting to connect to the build server...
+2024.11.30 22:58:44 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:58:44 INFO  Attempting to connect to the build server...
+2024.11.30 22:58:44 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 22:58:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:58:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 22:58:44 INFO  time: Connected to build server in 6.54s
+2024.11.30 22:58:44 INFO  Connected to Build server: Bloop v1.5.15
+2024.11.30 22:58:45 INFO  time: Imported build in 0.81s
+2024.11.30 22:58:49 INFO  compiling root (1 scala source)
+2024.11.30 22:58:56 INFO  time: indexed workspace in 10s
+2024.11.30 22:59:04 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 22:59:05 INFO  time: compiled root in 15s
+Nov 30, 2024 10:59:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1695
+Nov 30, 2024 10:59:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1696
+2024.11.30 22:59:05 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 10:59:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1722
+2024.11.30 22:59:53 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 11:01:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\ABC\Desktop\gatling\.metals\.reports\metals-full\2024-11-30\r_compiler-error_23-01-10-089.md
+2024.11.30 23:01:14 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+Nov 30, 2024 11:01:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1791
+Nov 30, 2024 11:01:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1800
+Nov 30, 2024 11:01:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1815
+2024.11.30 23:02:00 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals10798877427840989951\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 23:02:05 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 23:02:07 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 23:02:08 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 23:02:11 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 23:02:11 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 23:02:20 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 23:02:20 INFO  [success] Total time: 8 s, completed Nov 30, 2024, 11:02:20 PM
+2024.11.30 23:02:20 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 23:02:21 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 23:02:26 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 23:02:26 INFO  [success] Total time: 5 s, completed Nov 30, 2024, 11:02:26 PM
+2024.11.30 23:02:31 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 23:02:31 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 23:02:50 INFO  [success] Generated .bloop\root-it.json
+2024.11.30 23:02:50 INFO  [success] Generated .bloop\root.json
+2024.11.30 23:02:50 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 23:02:50 INFO  [success] Total time: 18 s, completed Nov 30, 2024, 11:02:50 PM
+2024.11.30 23:02:51 INFO  time: ran 'sbt bloopInstall' in 50s
+2024.11.30 23:02:51 INFO  Disconnecting from Bloop session...
+2024.11.30 23:02:51 INFO  Shut down connection with build server.
+2024.11.30 23:02:51 INFO  Shut down connection with build server.
+2024.11.30 23:02:51 INFO  Shut down connection with build server.
+2024.11.30 23:02:51 INFO  Attempting to connect to the build server...
+2024.11.30 23:02:51 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 23:02:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:02:51 INFO  Attempting to connect to the build server...
+2024.11.30 23:02:51 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 23:02:51 INFO  Attempting to connect to the build server...
+2024.11.30 23:02:51 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\ABC\.bloop\bloop.json
+2024.11.30 23:02:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:02:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:02:51 INFO  time: Connected to build server in 0.35s
+2024.11.30 23:02:51 INFO  Connected to Build server: Bloop v1.5.15
+2024.11.30 23:02:51 INFO  time: Imported build in 0.38s
+2024.11.30 23:02:58 INFO  time: indexed workspace in 6.71s
+2024.11.30 23:02:58 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:03:08 INFO  time: code lens generation in 2.44s
+2024.11.30 23:03:08 INFO  time: code lens generation in 9.59s
+Nov 30, 2024 11:03:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1873
+Nov 30, 2024 11:03:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1874
+Nov 30, 2024 11:03:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1881
+2024.11.30 23:04:13 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:04:19 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:04:25 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:05:11 INFO  Shutting down server
+2024.11.30 23:05:11 INFO  shutting down Metals
+2024.11.30 23:05:11 INFO  Shut down connection with build server.
+2024.11.30 23:05:11 INFO  Shut down connection with build server.
+2024.11.30 23:05:11 INFO  Shut down connection with build server.
+2024.11.30 23:05:11 INFO  Exiting server
+2024.11.30 23:06:41 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\ABC\Desktop\gatling' for client Visual Studio Code 1.95.3.
+2024.11.30 23:06:43 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.30 23:06:48 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 30, 2024 11:07:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.11.30 23:07:21 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:21 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:22 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:21 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:22 INFO  Attempting to connect to the build server...
+2024.11.30 23:07:22 INFO  No running Bloop server found, starting one.
+Nov 30, 2024 11:07:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Nov 30, 2024 11:07:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Nov 30, 2024 11:07:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2024.11.30 23:07:23 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:23 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Nov 30, 2024 11:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2024.11.30 23:07:24 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:24 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\main\scala\customCsvFeeder.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.30 23:07:30 ERROR Running process 'kill -9 13168' failed
+java.io.IOException: Cannot run program "kill" (in directory "C:\Users\ABC\AppData\Local\ScalaCli\data\bloop"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$4(BloopServers.scala:265)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$4$adapted(BloopServers.scala:262)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:494)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$4(BloopServers.scala:265)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$4$adapted(BloopServers.scala:262)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.30 23:07:48 INFO  Starting compilation server
+2024.11.30 23:07:48 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals16445032131089287857\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 23:07:54 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 23:07:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:08:02 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 23:08:06 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 23:08:08 INFO  Attempting to connect to the build server...
+2024.11.30 23:08:08 INFO  Found a Bloop server running
+2024.11.30 23:08:08 INFO  Attempting to connect to the build server...
+2024.11.30 23:08:08 INFO  Found a Bloop server running
+2024.11.30 23:08:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:08:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:08:12 INFO  time: Connected to build server in 49s
+2024.11.30 23:08:12 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:08:13 INFO  time: Imported build in 1.32s
+2024.11.30 23:08:13 INFO  running doctor check
+2024.11.30 23:08:13 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:08:20 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 23:08:21 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 23:08:35 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 23:08:35 INFO  [success] Total time: 13 s, completed Nov 30, 2024, 11:08:35 PM
+2024.11.30 23:08:38 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 23:08:38 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 23:08:44 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.30 23:08:48 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 23:08:48 INFO  [success] Total time: 10 s, completed Nov 30, 2024, 11:08:48 PM
+2024.11.30 23:08:53 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 23:08:53 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 23:09:02 INFO  [success] Generated .bloop\root.json
+2024.11.30 23:09:02 INFO  [success] Generated .bloop\root-it.json
+2024.11.30 23:09:02 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 23:09:02 INFO  [success] Total time: 8 s, completed Nov 30, 2024, 11:09:02 PM
+2024.11.30 23:09:03 INFO  time: ran 'sbt bloopInstall' in 1m14s
+2024.11.30 23:09:03 INFO  Disconnecting from Bloop session...
+2024.11.30 23:09:03 INFO  Shut down connection with build server.
+2024.11.30 23:09:03 INFO  Shut down connection with build server.
+2024.11.30 23:09:03 INFO  Shut down connection with build server.
+2024.11.30 23:09:03 INFO  Attempting to connect to the build server...
+2024.11.30 23:09:03 INFO  Found a Bloop server running
+2024.11.30 23:09:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:09:04 INFO  Attempting to connect to the build server...
+2024.11.30 23:09:04 INFO  Found a Bloop server running
+2024.11.30 23:09:04 INFO  Attempting to connect to the build server...
+2024.11.30 23:09:04 INFO  Found a Bloop server running
+2024.11.30 23:09:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:09:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:09:05 INFO  time: Connected to build server in 2.81s
+2024.11.30 23:09:05 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:09:06 INFO  time: Imported build in 0.57s
+2024.11.30 23:09:06 INFO  running doctor check
+2024.11.30 23:09:06 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:09:19 WARN  org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.PRIMARY_KEY_E ON PUBLIC.INDEXED_JAR(MD5) VALUES ( /* 1 */ '0DA39F493776CAD0B1B4D0A2EC26572C' )"; SQL statement:
+insert into indexed_jar (md5, type_hierarchy_indexed) values (?, ?) [23505-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:520)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.index.Index.getDuplicateKeyException(Index.java:523)
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:223)
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:184)
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:517)
+	at org.h2.command.dml.Insert.insertRows(Insert.java:174)
+	at org.h2.command.dml.Insert.update(Insert.java:135)
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:212)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:133)
+	at org.h2.command.Command.executeUpdate(Command.java:304)
+	at org.h2.command.Command.executeUpdate(Command.java:248)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:213)
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:172)
+	at scala.meta.internal.metals.JarTypeHierarchy.addJar(JarTopLevels.scala:229)
+	at scala.meta.internal.metals.JarTypeHierarchy.addTypeHierarchyInfo(JarTopLevels.scala:216)
+	at scala.meta.internal.metals.Indexer.indexJdkSources(Indexer.scala:427)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$19(Indexer.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$18(Indexer.scala:185)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$18$adapted(Indexer.scala:181)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:181)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.11.30 23:09:32 INFO  time: indexed workspace in 25s
+2024.11.30 23:09:32 INFO  time: indexed workspace in 1m18s
+2024.11.30 23:09:32 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:09:32 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:09:33 INFO  compiling root (1 scala source)
+2024.11.30 23:09:42 INFO  time: compiled root in 8.58s
+2024.11.30 23:09:42 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:09:45 INFO  time: code lens generation in 3.01s
+2024.11.30 23:09:45 INFO  time: code lens generation in 3.01s
+2024.11.30 23:09:47 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:09:47 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:09:49 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:10:32 INFO  time: code lens generation in 3.45s
+2024.11.30 23:10:51 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:10:51 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:10:51 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:11:19 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals6610336288643648986\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 23:11:24 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 23:11:25 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 23:11:27 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 23:11:29 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 23:11:29 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 23:11:37 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 23:11:37 INFO  [success] Total time: 7 s, completed Nov 30, 2024, 11:11:37 PM
+2024.11.30 23:11:37 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 23:11:38 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 23:11:42 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 23:11:42 INFO  [success] Total time: 4 s, completed Nov 30, 2024, 11:11:43 PM
+2024.11.30 23:11:50 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 23:11:50 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 23:12:30 INFO  [success] Generated .bloop\root-it.json
+2024.11.30 23:12:30 INFO  [success] Generated .bloop\root.json
+2024.11.30 23:12:30 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 23:12:30 INFO  [success] Total time: 39 s, completed Nov 30, 2024, 11:12:30 PM
+2024.11.30 23:12:30 INFO  time: ran 'sbt bloopInstall' in 1m10s
+2024.11.30 23:12:30 INFO  Disconnecting from Bloop session...
+2024.11.30 23:12:30 INFO  Shut down connection with build server.
+2024.11.30 23:12:30 INFO  Shut down connection with build server.
+2024.11.30 23:12:30 INFO  Shut down connection with build server.
+2024.11.30 23:12:30 INFO  Attempting to connect to the build server...
+2024.11.30 23:12:30 INFO  Found a Bloop server running
+2024.11.30 23:12:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\build.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.11.30 23:12:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:12:34 INFO  Attempting to connect to the build server...
+2024.11.30 23:12:34 INFO  Found a Bloop server running
+2024.11.30 23:12:34 INFO  Attempting to connect to the build server...
+2024.11.30 23:12:34 INFO  Found a Bloop server running
+2024.11.30 23:12:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:12:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:12:35 INFO  time: Connected to build server in 5.24s
+2024.11.30 23:12:35 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:12:35 INFO  time: Imported build in 0.49s
+2024.11.30 23:12:35 INFO  running doctor check
+2024.11.30 23:12:35 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:12:47 INFO  time: indexed workspace in 11s
+2024.11.30 23:12:48 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:12:50 INFO  time: code lens generation in 1.46s
+2024.11.30 23:12:57 INFO  skipping build import with status 'Installed'
+2024.11.30 23:12:57 INFO  Disconnecting from Bloop session...
+2024.11.30 23:12:57 INFO  Shut down connection with build server.
+2024.11.30 23:12:57 INFO  Cancelling compilation on Bloop server
+2024.11.30 23:12:57 INFO  no build target found for C:\Users\ABC\Desktop\gatling\build.sbt. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:12:57 INFO  Shut down connection with build server.
+2024.11.30 23:12:57 INFO  Shut down connection with build server.
+2024.11.30 23:12:57 INFO  Cancelling compilation on Bloop server
+2024.11.30 23:12:57 INFO  Attempting to connect to the build server...
+2024.11.30 23:12:57 INFO  Found a Bloop server running
+2024.11.30 23:12:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:12:59 INFO  Attempting to connect to the build server...
+2024.11.30 23:12:59 INFO  Found a Bloop server running
+2024.11.30 23:12:59 INFO  Attempting to connect to the build server...
+2024.11.30 23:12:59 INFO  Found a Bloop server running
+2024.11.30 23:12:59 INFO  no build target found for C:\Users\ABC\Desktop\gatling\build.sbt. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:13:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:13:00 INFO  time: Connected to build server in 2.68s
+2024.11.30 23:13:00 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:13:00 INFO  time: Imported build in 0.3s
+2024.11.30 23:13:00 INFO  running doctor check
+2024.11.30 23:13:00 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:13:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:04 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:04 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:05 INFO  time: code lens generation in 1.34s
+2024.11.30 23:13:08 INFO  time: indexed workspace in 7.99s
+2024.11.30 23:13:08 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:13:08 INFO  compiling root (1 scala source)
+2024.11.30 23:13:17 INFO  time: compiled root in 9.01s
+2024.11.30 23:13:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:55 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:55 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:13:55 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:58 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:58 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:58 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:58 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:14:59 WARN  Could not find 'Simulation' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2024.11.30 23:15:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:04 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:07 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:07 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:07 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:07 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:07 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:08 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:08 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:09 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:09 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:09 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:15:09 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:09 WARN  Could not find 'ChainBuilder' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2024.11.30 23:15:16 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals73932439054327115\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 23:15:21 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 23:15:23 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 23:15:24 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 23:15:27 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 23:15:27 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 23:15:37 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 23:15:37 INFO  [success] Total time: 10 s, completed Nov 30, 2024, 11:15:38 PM
+2024.11.30 23:15:37 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 23:15:37 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 23:15:43 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 23:15:43 INFO  [success] Total time: 5 s, completed Nov 30, 2024, 11:15:43 PM
+2024.11.30 23:15:52 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 23:15:52 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 23:15:59 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:59 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:59 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:15:59 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:01 INFO  [success] Generated .bloop\root-it.json
+2024.11.30 23:16:01 INFO  [success] Generated .bloop\root.json
+2024.11.30 23:16:01 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 23:16:01 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:01 INFO  [success] Total time: 8 s, completed Nov 30, 2024, 11:16:01 PM
+2024.11.30 23:16:01 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:01 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:01 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:02 INFO  time: ran 'sbt bloopInstall' in 45s
+2024.11.30 23:16:02 INFO  Disconnecting from Bloop session...
+2024.11.30 23:16:02 INFO  Shut down connection with build server.
+2024.11.30 23:16:02 INFO  Shut down connection with build server.
+2024.11.30 23:16:02 INFO  Shut down connection with build server.
+2024.11.30 23:16:02 INFO  Attempting to connect to the build server...
+2024.11.30 23:16:02 INFO  Found a Bloop server running
+2024.11.30 23:16:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:16:03 INFO  Attempting to connect to the build server...
+2024.11.30 23:16:03 INFO  Found a Bloop server running
+2024.11.30 23:16:03 INFO  Attempting to connect to the build server...
+2024.11.30 23:16:03 INFO  Found a Bloop server running
+2024.11.30 23:16:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:16:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:16:03 INFO  time: Connected to build server in 2.15s
+2024.11.30 23:16:03 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:16:04 INFO  time: Imported build in 0.24s
+2024.11.30 23:16:04 INFO  running doctor check
+2024.11.30 23:16:04 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:16:06 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:10 INFO  time: indexed workspace in 5.97s
+2024.11.30 23:16:10 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:16:10 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:10 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:18 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:18 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:16:19 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:16:19 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:17:27 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:17:27 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:15 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:17 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:33 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:18:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:34 WARN  Could not find 'Predef' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2024.11.30 23:18:34 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:39 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:18:39 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Nov 30, 2024 11:18:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+2024.11.30 23:19:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:03 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:04 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:23 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:25 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:27 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:27 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:27 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:28 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:28 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:29 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:19:29 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:32 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:33 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:35 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:35 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:35 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:35 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:36 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:37 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:39 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:39 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:38 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:39 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:40 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:42 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:42 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:42 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:41 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:42 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:43 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:42 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:43 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:43 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:19:43 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:19:43 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:21:04 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:21:11 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals4365343450508544927\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 23:21:16 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 23:21:17 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 23:21:19 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 23:21:22 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 23:21:22 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 23:21:32 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 23:21:32 INFO  [success] Total time: 10 s, completed Nov 30, 2024, 11:21:32 PM
+2024.11.30 23:21:32 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 23:21:33 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 23:21:38 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 23:21:38 INFO  [success] Total time: 5 s, completed Nov 30, 2024, 11:21:38 PM
+2024.11.30 23:21:44 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 23:21:44 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 23:21:47 INFO  [success] Generated .bloop\root-it.json
+2024.11.30 23:21:47 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 23:21:47 INFO  [success] Generated .bloop\root.json
+2024.11.30 23:21:47 INFO  [success] Total time: 3 s, completed Nov 30, 2024, 11:21:47 PM
+2024.11.30 23:21:47 INFO  time: ran 'sbt bloopInstall' in 36s
+2024.11.30 23:21:47 INFO  Disconnecting from Bloop session...
+2024.11.30 23:21:47 INFO  Shut down connection with build server.
+2024.11.30 23:21:47 INFO  Shut down connection with build server.
+2024.11.30 23:21:47 INFO  Shut down connection with build server.
+2024.11.30 23:21:47 INFO  Attempting to connect to the build server...
+2024.11.30 23:21:47 INFO  Found a Bloop server running
+2024.11.30 23:21:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:21:49 INFO  Attempting to connect to the build server...
+2024.11.30 23:21:49 INFO  Found a Bloop server running
+2024.11.30 23:21:49 INFO  Attempting to connect to the build server...
+2024.11.30 23:21:49 INFO  Found a Bloop server running
+2024.11.30 23:21:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:21:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:21:50 INFO  time: Connected to build server in 2.32s
+2024.11.30 23:21:50 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:21:50 INFO  time: Imported build in 0.28s
+2024.11.30 23:21:50 INFO  running doctor check
+2024.11.30 23:21:50 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:21:57 INFO  time: indexed workspace in 6.57s
+2024.11.30 23:21:57 WARN  no build target for: C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala
+2024.11.30 23:22:26 INFO  compiling root (1 scala source)
+Nov 30, 2024 11:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 497
+2024.11.30 23:22:29 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:22:29 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:22:29 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:22:30 INFO  time: compiled root in 4.23s
+2024.11.30 23:22:30 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:22:36 INFO  no build target found for C:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:22:42 INFO  no build target found for c:\Users\ABC\Desktop\gatling\src\test\gatlingTest.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.11.30 23:22:43 INFO  compiling root-test (1 scala source)
+2024.11.30 23:22:44 INFO  time: compiled root-test in 1.45s
+2024.11.30 23:22:44 INFO  compiling root-test (1 scala source)
+2024.11.30 23:22:44 INFO  time: compiled root-test in 0.27s
+2024.11.30 23:22:50 INFO  compiling root-test (1 scala source)
+2024.11.30 23:22:50 INFO  time: compiled root-test in 0.28s
+2024.11.30 23:23:05 INFO  compiling root-test (1 scala source)
+2024.11.30 23:23:05 INFO  time: compiled root-test in 0.8s
+2024.11.30 23:23:11 INFO  compiling root-test (1 scala source)
+2024.11.30 23:23:11 INFO  time: compiled root-test in 0.46s
+2024.11.30 23:23:22 INFO  compiling root-test (1 scala source)
+2024.11.30 23:23:26 INFO  time: compiled root-test in 3.41s
+Nov 30, 2024 11:23:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 645
+Nov 30, 2024 11:23:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 649
+Nov 30, 2024 11:23:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 652
+2024.11.30 23:23:33 INFO  compiling root-test (1 scala source)
+2024.11.30 23:23:33 INFO  time: compiled root-test in 0.47s
+2024.11.30 23:23:36 INFO  time: compiled root-test in 51ms
+2024.11.30 23:23:51 INFO  compiling root-test (1 scala source)
+2024.11.30 23:23:53 INFO  time: compiled root-test in 2.13s
+2024.11.30 23:24:35 INFO  compiling root-test (1 scala source)
+2024.11.30 23:24:38 INFO  time: compiled root-test in 2.42s
+2024.11.30 23:24:39 INFO  compiling root-test (1 scala source)
+2024.11.30 23:24:41 INFO  time: compiled root-test in 1.77s
+2024.11.30 23:25:19 INFO  compiling root-test (1 scala source)
+2024.11.30 23:25:26 INFO  time: compiled root-test in 6.38s
+2024.11.30 23:25:31 INFO  compiling root-test (1 scala source)
+2024.11.30 23:25:36 INFO  time: compiled root-test in 5.08s
+2024.11.30 23:27:28 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ABC\AppData\Local\Temp\metals9458892331144174350\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.30 23:27:33 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 18.0.1.1)
+2024.11.30 23:27:34 INFO  [info] loading settings for project gatling-build-build-build from metals.sbt ...
+2024.11.30 23:27:36 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project\project
+2024.11.30 23:27:39 INFO  [info] loading settings for project gatling-build-build from metals.sbt ...
+2024.11.30 23:27:39 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project\project
+2024.11.30 23:27:49 INFO  [success] Generated .bloop\gatling-build-build.json
+2024.11.30 23:27:49 INFO  [success] Total time: 10 s, completed Nov 30, 2024, 11:27:49 PM
+2024.11.30 23:27:51 INFO  [info] loading settings for project gatling-build from metals.sbt,plugins.sbt ...
+2024.11.30 23:27:51 INFO  [info] loading project definition from C:\Users\ABC\Desktop\gatling\project
+2024.11.30 23:27:55 INFO  [success] Generated .bloop\gatling-build.json
+2024.11.30 23:27:55 INFO  [success] Total time: 4 s, completed Nov 30, 2024, 11:27:55 PM
+2024.11.30 23:28:04 INFO  [info] loading settings for project root from build.sbt ...
+2024.11.30 23:28:04 INFO  [info] set current project to gatling-csv-custom-feeder (in build file:/C:/Users/ABC/Desktop/gatling/)
+2024.11.30 23:28:15 INFO  [success] Generated .bloop\root-it.json
+2024.11.30 23:28:15 INFO  [success] Generated .bloop\root.json
+2024.11.30 23:28:15 INFO  [success] Generated .bloop\root-test.json
+2024.11.30 23:28:15 INFO  [success] Total time: 10 s, completed Nov 30, 2024, 11:28:15 PM
+2024.11.30 23:28:15 INFO  time: ran 'sbt bloopInstall' in 47s
+2024.11.30 23:28:15 INFO  Disconnecting from Bloop session...
+2024.11.30 23:28:15 INFO  Shut down connection with build server.
+2024.11.30 23:28:15 INFO  Shut down connection with build server.
+2024.11.30 23:28:15 INFO  Shut down connection with build server.
+2024.11.30 23:28:15 INFO  Attempting to connect to the build server...
+2024.11.30 23:28:15 INFO  Found a Bloop server running
+2024.11.30 23:28:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:28:16 INFO  Attempting to connect to the build server...
+2024.11.30 23:28:16 INFO  Found a Bloop server running
+2024.11.30 23:28:16 INFO  Attempting to connect to the build server...
+2024.11.30 23:28:16 INFO  Found a Bloop server running
+2024.11.30 23:28:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:28:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ABC\Desktop\gatling\project\.metals\bsp.trace.json or C:\Users\ABC\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.30 23:28:17 INFO  time: Connected to build server in 2.43s
+2024.11.30 23:28:17 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.30 23:28:18 INFO  time: Imported build in 0.39s
+2024.11.30 23:28:18 INFO  running doctor check
+2024.11.30 23:28:18 INFO  java targets: gatling-build, root-test, gatling-build-build, root-it, root
+2024.11.30 23:28:24 INFO  time: indexed workspace in 6.1s
+2024.11.30 23:29:06 INFO  compiling root-test (1 scala source)
+2024.11.30 23:29:08 INFO  time: compiled root-test in 1.82s
+2024.11.30 23:29:43 INFO  compiling root-test (1 scala source)
+2024.11.30 23:29:45 INFO  time: compiled root-test in 1.53s
+2024.11.30 23:31:12 INFO  compiling root-test (1 scala source)
+2024.11.30 23:31:12 INFO  time: compiled root-test in 0.29s
+2024.11.30 23:31:16 INFO  compiling root-test (1 scala source)
+2024.11.30 23:31:16 INFO  time: compiled root-test in 0.27s
+2024.11.30 23:31:33 INFO  compiling root-test (1 scala source)
+2024.11.30 23:31:35 INFO  time: compiled root-test in 1.63s
+2024.11.30 23:35:11 INFO  compiling root-test (1 scala source)
+2024.11.30 23:35:13 INFO  time: compiled root-test in 1.71s
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1281
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1282
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1287
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1283
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1286
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1290
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1289
+Nov 30, 2024 11:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1294
+2024.11.30 23:35:33 INFO  compiling root-test (1 scala source)
+2024.11.30 23:35:33 INFO  time: compiled root-test in 0.41s
+2024.11.30 23:35:41 INFO  time: compiled root-test in 14ms
+2024.11.30 23:38:18 INFO  compiling root (1 scala source)
+2024.11.30 23:38:18 INFO  time: compiled root in 0.77s
+Nov 30, 2024 11:38:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1393
+2024.11.30 23:39:09 INFO  compiling root (1 scala source)
+2024.11.30 23:39:09 INFO  time: compiled root in 0.42s
+Nov 30, 2024 11:39:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1437
+2024.11.30 23:39:14 INFO  time: compiled root in 29ms
+2024.11.30 23:39:14 INFO  time: compiled root-test in 20ms
+2024.11.30 23:42:41 INFO  compiling root (1 scala source)
+2024.11.30 23:42:41 INFO  time: compiled root in 0.42s
+2024.11.30 23:43:37 INFO  time: compiled root in 21ms
+2024.11.30 23:43:37 INFO  time: compiled root-test in 18ms
+2024.11.30 23:43:43 INFO  compiling root-test (1 scala source)
+2024.11.30 23:43:43 INFO  time: compiled root-test in 0.34s
+2024.11.30 23:44:57 INFO  compiling root-test (1 scala source)
+2024.11.30 23:44:57 INFO  time: compiled root-test in 0.59s
+2024.11.30 23:44:59 INFO  compiling root (1 scala source)
+2024.11.30 23:44:59 INFO  time: compiled root in 0.48s
+Nov 30, 2024 11:45:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1596
+Nov 30, 2024 11:45:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1600
+Nov 30, 2024 11:45:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1601
+2024.11.30 23:45:12 INFO  compiling root (1 scala source)
+2024.11.30 23:45:12 INFO  time: compiled root in 0.3s
+2024.11.30 23:45:18 INFO  time: compiled root in 26ms
+2024.11.30 23:45:18 INFO  compiling root-test (1 scala source)
+2024.11.30 23:45:18 INFO  time: compiled root-test in 0.34s
+2024.11.30 23:45:29 INFO  compiling root-test (1 scala source)
+2024.11.30 23:45:29 INFO  time: compiled root-test in 0.62s
+2024.11.30 23:45:39 INFO  compiling root-test (1 scala source)
+2024.11.30 23:45:39 INFO  time: compiled root-test in 0.55s
+2024.11.30 23:46:11 INFO  compiling root-test (1 scala source)
+2024.11.30 23:46:11 INFO  time: compiled root-test in 0.56s
+2024.11.30 23:47:11 INFO  compiling root-test (1 scala source)
+2024.11.30 23:47:13 INFO  time: compiled root-test in 1.62s
+2024.11.30 23:47:36 INFO  compiling root (1 scala source)
+2024.11.30 23:47:36 INFO  time: compiled root in 0.34s
+Nov 30, 2024 11:47:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2070
+Nov 30, 2024 11:47:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2068
+Nov 30, 2024 11:47:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2073
+2024.11.30 23:47:42 INFO  compiling root (1 scala source)
+2024.11.30 23:47:42 INFO  time: compiled root in 0.32s
+Nov 30, 2024 11:47:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2094
+2024.11.30 23:47:46 INFO  compiling root (1 scala source)
+2024.11.30 23:47:46 INFO  time: compiled root in 0.4s
+2024.11.30 23:48:53 INFO  compiling root (1 scala source)
+2024.11.30 23:48:53 INFO  time: compiled root in 0.56s
+2024.11.30 23:48:55 INFO  compiling root (1 scala source)
+2024.11.30 23:48:55 INFO  time: compiled root in 0.45s
+Nov 30, 2024 11:48:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2171
+2024.11.30 23:48:59 INFO  compiling root (1 scala source)
+2024.11.30 23:48:59 INFO  time: compiled root in 0.4s
+2024.11.30 23:49:04 INFO  compiling root (1 scala source)
+2024.11.30 23:49:04 INFO  time: compiled root in 0.2s
+2024.11.30 23:49:13 INFO  time: compiled root in 16ms
+2024.11.30 23:49:13 INFO  time: compiled root-test in 13ms
+2024.11.30 23:50:46 INFO  compiling root (1 scala source)
+2024.11.30 23:50:46 INFO  time: compiled root in 0.56s
+something's wrong: no file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala in io.gatling.core.feeder.BatchableFeederBuilder[<error>]RangePosition(file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala, 121, 121, 767)
+2024.11.30 23:50:52 INFO  compiling root (1 scala source)
+2024.11.30 23:50:52 INFO  time: compiled root in 0.34s
+2024.11.30 23:50:55 INFO  compiling root (1 scala source)
+2024.11.30 23:50:55 INFO  time: compiled root in 0.32s
+2024.11.30 23:51:02 INFO  time: compiled root in 0.11s
+2024.11.30 23:51:02 INFO  time: compiled root-test in 18ms
+2024.11.30 23:51:38 INFO  compiling root (1 scala source)
+2024.11.30 23:51:38 INFO  time: compiled root in 0.34s
+Nov 30, 2024 11:51:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2503
+2024.11.30 23:51:49 INFO  compiling root (1 scala source)
+2024.11.30 23:51:49 INFO  time: compiled root in 0.88s
+Nov 30, 2024 11:51:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 30, 2024 11:51:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2505
+Nov 30, 2024 11:51:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2513
+Nov 30, 2024 11:52:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2550
+2024.11.30 23:52:16 INFO  compiling root (1 scala source)
+2024.11.30 23:52:16 INFO  time: compiled root in 0.28s
+2024.11.30 23:52:25 INFO  compiling root (1 scala source)
+2024.11.30 23:52:25 INFO  time: compiled root in 0.33s
+2024.11.30 23:52:52 INFO  compiling root (1 scala source)
+2024.11.30 23:52:52 INFO  time: compiled root in 0.23s
+something's wrong: no file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala in io.gatling.core.feeder.BatchableFeederBuilder[<error>]RangePosition(file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala, 747, 747, 779)
+2024.11.30 23:53:02 INFO  compiling root (1 scala source)
+2024.11.30 23:53:03 INFO  time: compiled root in 1.58s
+2024.11.30 23:53:03 INFO  time: compiled root-test in 16ms
+2024.11.30 23:53:31 INFO  compiling root-test (1 scala source)
+2024.11.30 23:53:32 INFO  time: compiled root-test in 1.27s
+Nov 30, 2024 11:53:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2927
+Nov 30, 2024 11:53:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2960
+Nov 30, 2024 11:54:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3113
+2024.11.30 23:54:30 INFO  compiling root-test (1 scala source)
+2024.11.30 23:54:30 INFO  time: compiled root-test in 0.5s
+2024.11.30 23:55:04 INFO  compiling root-test (1 scala source)
+2024.11.30 23:55:04 INFO  time: compiled root-test in 0.46s
+2024.11.30 23:55:10 INFO  compiling root-test (1 scala source)
+Nov 30, 2024 11:55:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3426
+2024.11.30 23:55:12 INFO  time: compiled root-test in 1.82s
+Nov 30, 2024 11:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3443
+2024.11.30 23:55:17 INFO  compiling root-test (1 scala source)
+2024.11.30 23:55:19 INFO  time: compiled root-test in 1.8s
+2024.11.30 23:56:14 INFO  compiling root (1 scala source)
+2024.11.30 23:56:14 INFO  time: compiled root in 0.33s
+2024.11.30 23:56:18 INFO  compiling root (1 scala source)
+2024.11.30 23:56:18 INFO  time: compiled root in 0.33s
+2024.11.30 23:56:21 INFO  compiling root (1 scala source)
+2024.11.30 23:56:21 INFO  time: compiled root in 0.47s
+2024.11.30 23:56:24 INFO  compiling root (1 scala source)
+2024.11.30 23:56:24 INFO  time: compiled root in 0.85s
+2024.11.30 23:56:34 INFO  time: compiled root in 19ms
+2024.11.30 23:56:34 INFO  time: compiled root-test in 13ms
+2024.11.30 23:57:50 INFO  compiling root (1 scala source)
+2024.11.30 23:57:50 INFO  time: compiled root in 0.29s
+2024.11.30 23:58:02 INFO  compiling root (1 scala source)
+2024.11.30 23:58:02 INFO  time: compiled root in 0.3s
+Nov 30, 2024 11:58:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3749
+Nov 30, 2024 11:58:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3753
+2024.11.30 23:58:34 INFO  compiling root (1 scala source)
+2024.11.30 23:58:34 INFO  time: compiled root in 0.31s
+2024.11.30 23:59:07 INFO  compiling root (1 scala source)
+2024.11.30 23:59:07 INFO  time: compiled root in 0.37s
+2024.11.30 23:59:13 INFO  compiling root (1 scala source)
+2024.11.30 23:59:13 INFO  time: compiled root in 0.35s
+2024.11.30 23:59:18 INFO  compiling root (1 scala source)
+2024.11.30 23:59:18 INFO  time: compiled root in 0.29s
+something's wrong: no file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala in io.gatling.core.feeder.BatchableFeederBuilder[<error>]RangePosition(file:///C:/Users/ABC/Desktop/gatling/src/main/scala/customCsvFeeder.scala, 155, 155, 838)
+2024.11.30 23:59:33 INFO  compiling root (1 scala source)
+2024.11.30 23:59:33 INFO  time: compiled root in 0.28s
+2024.11.30 23:59:39 INFO  compiling root (1 scala source)
+2024.11.30 23:59:39 INFO  time: compiled root in 0.29s
+2024.11.30 23:59:58 INFO  compiling root (1 scala source)
+2024.11.30 23:59:58 INFO  time: compiled root in 0.42s
+2024.12.01 00:02:22 INFO  compiling root (1 scala source)
+2024.12.01 00:02:22 INFO  time: compiled root in 0.48s
+2024.12.01 00:03:05 INFO  compiling root (1 scala source)
+2024.12.01 00:03:05 INFO  time: compiled root in 0.38s
+2024.12.01 00:03:08 INFO  compiling root (1 scala source)
+2024.12.01 00:03:08 INFO  time: compiled root in 0.5s
+2024.12.01 00:04:36 INFO  compiling root (1 scala source)
+Dec 01, 2024 12:04:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4352
+2024.12.01 00:04:39 INFO  time: compiled root in 2.28s
+2024.12.01 00:04:39 INFO  compiling root-test (1 scala source)
+2024.12.01 00:04:39 INFO  time: compiled root-test in 0.37s
+2024.12.01 00:04:42 INFO  compiling root-test (1 scala source)
+2024.12.01 00:04:42 INFO  time: compiled root-test in 0.76s
+2024.12.01 00:05:51 INFO  compiling root-test (1 scala source)
+2024.12.01 00:05:51 INFO  time: compiled root-test in 0.51s
+2024.12.01 00:06:02 INFO  compiling root-test (1 scala source)
+2024.12.01 00:06:04 INFO  time: compiled root-test in 1.73s
+Dec 01, 2024 12:08:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4708
+2024.12.01 00:08:02 INFO  compiling root-test (1 scala source)
+2024.12.01 00:08:04 INFO  time: compiled root-test in 1.6s
+2024.12.01 00:08:36 INFO  compiling root-test (1 scala source)
+2024.12.01 00:08:38 INFO  time: compiled root-test in 1.75s
+Dec 01, 2024 12:10:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4913
+2024.12.01 00:13:20 INFO  compiling root-test (1 scala source)
+2024.12.01 00:13:22 INFO  time: compiled root-test in 1.6s
+Dec 01, 2024 12:15:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5024
+Dec 01, 2024 12:15:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5025
+Dec 01, 2024 12:15:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5029
+2024.12.01 00:15:38 INFO  compiling root-test (1 scala source)
+2024.12.01 00:15:38 INFO  time: compiled root-test in 0.44s
+2024.12.01 00:15:39 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:15:45 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:15:46 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:15:47 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:15:48 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:15:49 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:15:51 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:16:11 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:16:13 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:16:13 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+Dec 01, 2024 12:16:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5133
+2024.12.01 00:16:13 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:16:13 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:16:13 WARN  Could not load snapshot text for C:\Users\ABC\Desktop\gatling\src\test\scala\gatlingTest.scala
+2024.12.01 00:16:13 INFO  compiling root-test (1 scala source)
+2024.12.01 00:16:15 INFO  time: compiled root-test in 1.44s
+2024.12.01 00:16:31 INFO  compiling root-test (1 scala source)
+2024.12.01 00:16:33 INFO  time: compiled root-test in 1.63s
+2024.12.01 00:21:46 INFO  compiling root-test (1 scala source)
+2024.12.01 00:21:48 INFO  time: compiled root-test in 1.72s
+2024.12.01 00:24:42 INFO  compiling root (1 scala source)
+2024.12.01 00:24:44 INFO  time: compiled root in 1.46s
+Dec 01, 2024 12:24:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5472
+2024.12.01 00:25:06 INFO  time: compiled root in 34ms
+2024.12.01 00:25:06 INFO  time: compiled root-test in 14ms
+2024.12.01 00:27:25 INFO  compiling root (1 scala source)
+2024.12.01 00:27:26 INFO  time: compiled root in 1.42s
+2024.12.01 00:27:26 INFO  compiling root-test (1 scala source)
+2024.12.01 00:27:26 INFO  time: compiled root-test in 0.43s
+2024.12.01 00:27:33 INFO  compiling root-test (1 scala source)
+2024.12.01 00:27:33 INFO  time: compiled root-test in 0.61s
+2024.12.01 00:27:59 INFO  compiling root-test (1 scala source)
+2024.12.01 00:27:59 INFO  time: compiled root-test in 0.34s
+2024.12.01 00:28:02 INFO  compiling root-test (1 scala source)
+2024.12.01 00:28:02 INFO  time: compiled root-test in 0.4s
+2024.12.01 00:28:57 INFO  compiling root-test (1 scala source)
+2024.12.01 00:28:57 INFO  time: compiled root-test in 0.34s
+2024.12.01 00:29:07 INFO  compiling root-test (1 scala source)
+2024.12.01 00:29:07 INFO  time: compiled root-test in 0.36s
+2024.12.01 00:29:15 INFO  compiling root-test (1 scala source)
+2024.12.01 00:29:15 INFO  time: compiled root-test in 0.56s
+2024.12.01 00:29:17 INFO  compiling root-test (1 scala source)
+2024.12.01 00:29:17 INFO  time: compiled root-test in 0.31s
+2024.12.01 00:29:24 INFO  compiling root-test (1 scala source)
+2024.12.01 00:29:24 INFO  time: compiled root-test in 0.4s
+2024.12.01 00:30:15 INFO  compiling root (1 scala source)
+2024.12.01 00:30:17 INFO  time: compiled root in 1.8s
+2024.12.01 00:30:17 INFO  compiling root-test (1 scala source)
+2024.12.01 00:30:17 INFO  time: compiled root-test in 0.65s
+2024.12.01 00:30:27 INFO  compiling root (1 scala source)
+2024.12.01 00:30:27 INFO  time: compiled root in 0.2s
+2024.12.01 00:30:35 INFO  compiling root (1 scala source)
+2024.12.01 00:30:35 INFO  time: compiled root in 0.28s
+2024.12.01 00:30:37 INFO  compiling root (1 scala source)
+2024.12.01 00:30:39 INFO  time: compiled root in 1.94s
+2024.12.01 00:30:39 INFO  compiling root-test (1 scala source)
+2024.12.01 00:30:39 INFO  time: compiled root-test in 0.49s
+2024.12.01 00:30:50 INFO  compiling root-test (1 scala source)
+2024.12.01 00:30:50 INFO  time: compiled root-test in 0.57s
+Dec 01, 2024 12:30:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5845
+Dec 01, 2024 12:30:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5846
+Dec 01, 2024 12:30:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5847
+Dec 01, 2024 12:30:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5849
+Dec 01, 2024 12:30:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5850
+2024.12.01 00:30:55 INFO  compiling root-test (1 scala source)
+2024.12.01 00:30:55 INFO  time: compiled root-test in 0.31s
+2024.12.01 00:31:01 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:01 INFO  time: compiled root-test in 0.35s
+2024.12.01 00:31:06 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:06 INFO  time: compiled root-test in 0.4s
+2024.12.01 00:31:19 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:19 INFO  time: compiled root-test in 0.59s
+2024.12.01 00:31:28 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:28 INFO  time: compiled root-test in 0.34s
+2024.12.01 00:31:30 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:30 INFO  time: compiled root-test in 0.56s
+2024.12.01 00:31:42 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:42 INFO  time: compiled root-test in 0.75s
+2024.12.01 00:31:49 INFO  compiling root-test (1 scala source)
+2024.12.01 00:31:50 INFO  time: compiled root-test in 1.42s
+2024.12.01 00:33:15 INFO  compiling root (1 scala source)
+2024.12.01 00:33:16 INFO  time: compiled root in 1.32s
+2024.12.01 00:33:39 INFO  compiling root-test (1 scala source)
+2024.12.01 00:33:40 INFO  time: compiled root-test in 1.24s
+2024.12.01 00:33:47 INFO  compiling root-test (1 scala source)
+2024.12.01 00:33:47 INFO  time: compiled root-test in 0.35s
+2024.12.01 00:33:49 INFO  compiling root-test (1 scala source)
+2024.12.01 00:33:50 INFO  time: compiled root-test in 1.33s
+2024.12.01 00:33:55 INFO  compiling root-test (1 scala source)
+2024.12.01 00:33:56 INFO  time: compiled root-test in 1.11s
+2024.12.01 00:34:24 INFO  compiling root-test (1 scala source)
+2024.12.01 00:34:25 INFO  time: compiled root-test in 1.3s
+Dec 01, 2024 12:35:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6671
+2024.12.01 00:36:04 INFO  compiling root-test (1 scala source)
+2024.12.01 00:36:06 INFO  time: compiled root-test in 1.47s
+2024.12.01 00:38:46 INFO  compiling root-test (1 scala source)
+2024.12.01 00:38:48 INFO  time: compiled root-test in 2.11s
+2024.12.01 00:39:35 INFO  compiling root (1 scala source)
+2024.12.01 00:39:35 INFO  time: compiled root in 0.22s
+2024.12.01 00:39:40 INFO  time: compiled root in 29ms
+2024.12.01 00:39:40 INFO  time: compiled root-test in 13ms
+2024.12.01 00:39:55 INFO  Shutting down server
+2024.12.01 00:39:55 INFO  shutting down Metals
+2024.12.01 00:39:55 INFO  Shut down connection with build server.
+2024.12.01 00:39:55 INFO  Shut down connection with build server.
+2024.12.01 00:39:55 INFO  Shut down connection with build server.
+2024.12.01 00:39:55 INFO  Exiting server

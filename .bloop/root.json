@@ -1,0 +1,1352 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "C:\\Users\\ABC\\Desktop\\gatling",
+        "workspaceDir": "C:\\Users\\ABC\\Desktop\\gatling",
+        "sources": [
+            "C:\\Users\\ABC\\Desktop\\gatling\\src\\main\\scala",
+            "C:\\Users\\ABC\\Desktop\\gatling\\src\\main\\scala-2.13",
+            "C:\\Users\\ABC\\Desktop\\gatling\\src\\main\\scala-2",
+            "C:\\Users\\ABC\\Desktop\\gatling\\src\\main\\java",
+            "C:\\Users\\ABC\\Desktop\\gatling\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-core\\3.13.1\\gatling-core-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-http\\3.13.1\\gatling-http-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-netty-util\\3.13.1\\gatling-netty-util-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-quicklens\\3.13.1\\gatling-quicklens-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-commons\\3.13.1\\gatling-commons-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-jsonpath\\3.13.1\\gatling-jsonpath-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-model_2.13\\0.0.8\\gatling-shared-model_2.13-0.0.8.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-cli\\0.0.3\\gatling-shared-cli-0.0.3.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\simpleflatmapper\\lightning-csv\\9.0.2\\lightning-csv-9.0.2.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\ben-manes\\caffeine\\caffeine\\3.1.8\\caffeine-3.1.8.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\pebbletemplates\\pebble\\3.2.2\\pebble-3.2.2.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.4.0\\scala-parser-combinators_2.13-2.4.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.13\\3.7.1\\scopt_2.13-3.7.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler\\4.1.115.Final\\netty-handler-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-classes\\2.0.69.Final\\netty-tcnative-classes-2.0.69.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final-linux-x86_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final-linux-aarch_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final-osx-x86_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final-osx-aarch_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final-windows-x86_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.18.1\\jackson-databind-2.18.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\saxon\\Saxon-HE\\12.5\\Saxon-HE-12.5.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xmlresolver\\xmlresolver\\6.0.11\\xmlresolver-6.0.11.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xmlresolver\\xmlresolver\\6.0.11\\xmlresolver-6.0.11-data.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jodd\\jodd-lagarto\\6.0.6\\jodd-lagarto-6.0.6.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jodd\\jodd-util\\6.3.0\\jodd-util-6.3.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\burt\\jmespath-jackson\\0.6.0\\jmespath-jackson-0.6.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-http-client\\3.13.1\\gatling-http-client-3.13.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-util_2.13\\0.0.10\\gatling-shared-util_2.13-0.0.10.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-buffer\\4.1.115.Final\\netty-buffer-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.115.Final\\netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-epoll\\4.1.115.Final\\netty-transport-native-epoll-4.1.115.Final-linux-aarch_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\incubator\\netty-incubator-transport-native-io_uring\\0.0.25.Final\\netty-incubator-transport-native-io_uring-0.0.25.Final-linux-x86_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\incubator\\netty-incubator-transport-native-io_uring\\0.0.25.Final\\netty-incubator-transport-native-io_uring-0.0.25.Final-linux-aarch_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.3\\config-1.4.3.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\metarank\\cfor_2.13\\0.3\\cfor_2.13-0.3.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.5\\scala-logging_2.13-3.9.5.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.5.12\\logback-classic-1.5.12.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\suzaku\\boopickle_2.13\\1.5.0\\boopickle_2.13-1.5.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spotbugs\\spotbugs-annotations\\4.8.4\\spotbugs-annotations-4.8.4.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\simpleflatmapper\\sfm-util\\9.0.2\\sfm-util-9.0.2.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\errorprone\\error_prone_annotations\\2.21.1\\error_prone_annotations-2.21.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\unbescape\\unbescape\\1.1.6.RELEASE\\unbescape-1.1.6.RELEASE.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-common\\4.1.115.Final\\netty-common-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver\\4.1.115.Final\\netty-resolver-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport\\4.1.115.Final\\netty-transport-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-unix-common\\4.1.115.Final\\netty-transport-native-unix-common-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec\\4.1.115.Final\\netty-codec-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.18.1\\jackson-annotations-2.18.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.18.1\\jackson-core-2.18.1.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\burt\\jmespath-core\\0.6.0\\jmespath-core-0.6.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-http\\4.1.115.Final\\netty-codec-http-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler-proxy\\4.1.115.Final\\netty-handler-proxy-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns\\4.1.115.Final\\netty-resolver-dns-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-http2\\4.1.115.Final\\netty-codec-http2-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns-native-macos\\4.1.115.Final\\netty-resolver-dns-native-macos-4.1.115.Final-osx-x86_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns-native-macos\\4.1.115.Final\\netty-resolver-dns-native-macos-4.1.115.Final-osx-aarch_64.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\brotli4j\\1.17.0\\brotli4j-1.17.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-linux-x86_64\\1.17.0\\native-linux-x86_64-1.17.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-linux-aarch64\\1.17.0\\native-linux-aarch64-1.17.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-osx-x86_64\\1.17.0\\native-osx-x86_64-1.17.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-osx-aarch64\\1.17.0\\native-osx-aarch64-1.17.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-windows-x86_64\\1.17.0\\native-windows-x86_64-1.17.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.13\\2.12.0\\scala-collection-compat_2.13-2.12.0.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-epoll\\4.1.115.Final\\netty-transport-classes-epoll-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\incubator\\netty-incubator-transport-classes-io_uring\\0.0.25.Final\\netty-incubator-transport-classes-io_uring-0.0.25.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.14\\scala-reflect-2.13.14.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.5.12\\logback-core-1.5.12.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-socks\\4.1.115.Final\\netty-codec-socks-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-dns\\4.1.115.Final\\netty-codec-dns-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns-classes-macos\\4.1.115.Final\\netty-resolver-dns-classes-macos-4.1.115.Final.jar",
+            "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\service\\1.17.0\\service-1.17.0.jar"
+        ],
+        "out": "C:\\Users\\ABC\\Desktop\\gatling\\.bloop\\root",
+        "classesDir": "C:\\Users\\ABC\\Desktop\\gatling\\.bloop\\root\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\ABC\\Desktop\\gatling\\src\\main\\resources",
+            "C:\\Users\\ABC\\Desktop\\gatling\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.14",
+            "options": [
+                "-Xfatal-warnings",
+                "-deprecation",
+                "-feature",
+                "-unchecked",
+                "-language:implicitConversions",
+                "-language:higherKinds",
+                "-language:existentials",
+                "-language:postfixOps"
+            ],
+            "jars": [
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar",
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.14\\scala-compiler-2.13.14.jar",
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.14\\scala-reflect-2.13.14.jar",
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.25.1\\jline-3.25.1.jar",
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.14.0\\jna-5.14.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            },
+            "bridgeJars": [
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala2-sbt-bridge\\2.13.14\\scala2-sbt-bridge-2.13.14.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-18.0.1.1",
+                "options": [
+                    "-Duser.dir=C:\\Users\\ABC\\Desktop\\gatling"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "C:\\Program Files\\Java\\jdk-18.0.1.1",
+                "options": [
+                    "-Duser.dir=C:\\Users\\ABC\\Desktop\\gatling"
+                ]
+            },
+            "classpath": [
+                "C:\\Users\\ABC\\Desktop\\gatling\\.bloop\\root\\scala-2.13\\classes",
+                "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-core",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-core",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-core\\3.13.1\\gatling-core-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-core\\3.13.1\\gatling-core-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-http",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-http",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-http\\3.13.1\\gatling-http-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-http\\3.13.1\\gatling-http-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-netty-util",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-netty-util",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-netty-util\\3.13.1\\gatling-netty-util-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-netty-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-netty-util\\3.13.1\\gatling-netty-util-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-quicklens",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-quicklens",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-quicklens\\3.13.1\\gatling-quicklens-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-quicklens",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-quicklens\\3.13.1\\gatling-quicklens-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-commons",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-commons",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-commons\\3.13.1\\gatling-commons-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-commons\\3.13.1\\gatling-commons-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-jsonpath",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-jsonpath",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-jsonpath\\3.13.1\\gatling-jsonpath-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-jsonpath",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-jsonpath\\3.13.1\\gatling-jsonpath-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-shared-model_2.13",
+                    "version": "0.0.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-shared-model_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-model_2.13\\0.0.8\\gatling-shared-model_2.13-0.0.8.jar"
+                        },
+                        {
+                            "name": "gatling-shared-model_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-model_2.13\\0.0.8\\gatling-shared-model_2.13-0.0.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-shared-cli",
+                    "version": "0.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-shared-cli",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-cli\\0.0.3\\gatling-shared-cli-0.0.3.jar"
+                        },
+                        {
+                            "name": "gatling-shared-cli",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-cli\\0.0.3\\gatling-shared-cli-0.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.simpleflatmapper",
+                    "name": "lightning-csv",
+                    "version": "9.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lightning-csv",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\simpleflatmapper\\lightning-csv\\9.0.2\\lightning-csv-9.0.2.jar"
+                        },
+                        {
+                            "name": "lightning-csv",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\simpleflatmapper\\lightning-csv\\9.0.2\\lightning-csv-9.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "3.1.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\ben-manes\\caffeine\\caffeine\\3.1.8\\caffeine-3.1.8.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\ben-manes\\caffeine\\caffeine\\3.1.8\\caffeine-3.1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.pebbletemplates",
+                    "name": "pebble",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pebble",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\pebbletemplates\\pebble\\3.2.2\\pebble-3.2.2.jar"
+                        },
+                        {
+                            "name": "pebble",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\pebbletemplates\\pebble\\3.2.2\\pebble-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "2.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.4.0\\scala-parser-combinators_2.13-2.4.0.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.4.0\\scala-parser-combinators_2.13-2.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.scopt",
+                    "name": "scopt_2.13",
+                    "version": "3.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scopt_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.13\\3.7.1\\scopt_2.13-3.7.1.jar"
+                        },
+                        {
+                            "name": "scopt_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\scopt\\scopt_2.13\\3.7.1\\scopt_2.13-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler\\4.1.115.Final\\netty-handler-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler\\4.1.115.Final\\netty-handler-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-classes",
+                    "version": "2.0.69.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-classes",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-classes\\2.0.69.Final\\netty-tcnative-classes-2.0.69.Final.jar"
+                        },
+                        {
+                            "name": "netty-tcnative-classes",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-classes\\2.0.69.Final\\netty-tcnative-classes-2.0.69.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-boringssl-static",
+                    "version": "2.0.69.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-boringssl-static",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final.jar"
+                        },
+                        {
+                            "name": "netty-tcnative-boringssl-static",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-tcnative-boringssl-static\\2.0.69.Final\\netty-tcnative-boringssl-static-2.0.69.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.18.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.18.1\\jackson-databind-2.18.1.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.18.1\\jackson-databind-2.18.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.saxon",
+                    "name": "Saxon-HE",
+                    "version": "12.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "Saxon-HE",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\saxon\\Saxon-HE\\12.5\\Saxon-HE-12.5.jar"
+                        },
+                        {
+                            "name": "Saxon-HE",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\sf\\saxon\\Saxon-HE\\12.5\\Saxon-HE-12.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xmlresolver",
+                    "name": "xmlresolver",
+                    "version": "6.0.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xmlresolver",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xmlresolver\\xmlresolver\\6.0.11\\xmlresolver-6.0.11.jar"
+                        },
+                        {
+                            "name": "xmlresolver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\xmlresolver\\xmlresolver\\6.0.11\\xmlresolver-6.0.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-lagarto",
+                    "version": "6.0.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jodd-lagarto",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jodd\\jodd-lagarto\\6.0.6\\jodd-lagarto-6.0.6.jar"
+                        },
+                        {
+                            "name": "jodd-lagarto",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jodd\\jodd-lagarto\\6.0.6\\jodd-lagarto-6.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-util",
+                    "version": "6.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jodd-util",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jodd\\jodd-util\\6.3.0\\jodd-util-6.3.0.jar"
+                        },
+                        {
+                            "name": "jodd-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jodd\\jodd-util\\6.3.0\\jodd-util-6.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.burt",
+                    "name": "jmespath-jackson",
+                    "version": "0.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jmespath-jackson",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\burt\\jmespath-jackson\\0.6.0\\jmespath-jackson-0.6.0.jar"
+                        },
+                        {
+                            "name": "jmespath-jackson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\burt\\jmespath-jackson\\0.6.0\\jmespath-jackson-0.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-http-client",
+                    "version": "3.13.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-http-client",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-http-client\\3.13.1\\gatling-http-client-3.13.1.jar"
+                        },
+                        {
+                            "name": "gatling-http-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-http-client\\3.13.1\\gatling-http-client-3.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-shared-util_2.13",
+                    "version": "0.0.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gatling-shared-util_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-util_2.13\\0.0.10\\gatling-shared-util_2.13-0.0.10.jar"
+                        },
+                        {
+                            "name": "gatling-shared-util_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\gatling\\gatling-shared-util_2.13\\0.0.10\\gatling-shared-util_2.13-0.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-buffer\\4.1.115.Final\\netty-buffer-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-buffer\\4.1.115.Final\\netty-buffer-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.3\\config-1.4.3.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.3\\config-1.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.metarank",
+                    "name": "cfor_2.13",
+                    "version": "0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cfor_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\metarank\\cfor_2.13\\0.3\\cfor_2.13-0.3.jar"
+                        },
+                        {
+                            "name": "cfor_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\metarank\\cfor_2.13\\0.3\\cfor_2.13-0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\slf4j\\slf4j-api\\2.0.16\\slf4j-api-2.0.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.13",
+                    "version": "3.9.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.5\\scala-logging_2.13-3.9.5.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.5\\scala-logging_2.13-3.9.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.5.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.5.12\\logback-classic-1.5.12.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-classic\\1.5.12\\logback-classic-1.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.suzaku",
+                    "name": "boopickle_2.13",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "boopickle_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\suzaku\\boopickle_2.13\\1.5.0\\boopickle_2.13-1.5.0.jar"
+                        },
+                        {
+                            "name": "boopickle_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\suzaku\\boopickle_2.13\\1.5.0\\boopickle_2.13-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.spotbugs",
+                    "name": "spotbugs-annotations",
+                    "version": "4.8.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spotbugs-annotations",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spotbugs\\spotbugs-annotations\\4.8.4\\spotbugs-annotations-4.8.4.jar"
+                        },
+                        {
+                            "name": "spotbugs-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\spotbugs\\spotbugs-annotations\\4.8.4\\spotbugs-annotations-4.8.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.simpleflatmapper",
+                    "name": "sfm-util",
+                    "version": "9.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sfm-util",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\simpleflatmapper\\sfm-util\\9.0.2\\sfm-util-9.0.2.jar"
+                        },
+                        {
+                            "name": "sfm-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\simpleflatmapper\\sfm-util\\9.0.2\\sfm-util-9.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.37.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\checkerframework\\checker-qual\\3.37.0\\checker-qual-3.37.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.21.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\errorprone\\error_prone_annotations\\2.21.1\\error_prone_annotations-2.21.1.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\errorprone\\error_prone_annotations\\2.21.1\\error_prone_annotations-2.21.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.unbescape",
+                    "name": "unbescape",
+                    "version": "1.1.6.RELEASE",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "unbescape",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\unbescape\\unbescape\\1.1.6.RELEASE\\unbescape-1.1.6.RELEASE.jar"
+                        },
+                        {
+                            "name": "unbescape",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\unbescape\\unbescape\\1.1.6.RELEASE\\unbescape-1.1.6.RELEASE-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-common\\4.1.115.Final\\netty-common-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-common\\4.1.115.Final\\netty-common-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver\\4.1.115.Final\\netty-resolver-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver\\4.1.115.Final\\netty-resolver-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport\\4.1.115.Final\\netty-transport-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport\\4.1.115.Final\\netty-transport-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-unix-common\\4.1.115.Final\\netty-transport-native-unix-common-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-native-unix-common\\4.1.115.Final\\netty-transport-native-unix-common-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec\\4.1.115.Final\\netty-codec-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec\\4.1.115.Final\\netty-codec-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.18.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.18.1\\jackson-annotations-2.18.1.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.18.1\\jackson-annotations-2.18.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.18.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.18.1\\jackson-core-2.18.1.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\fasterxml\\jackson\\core\\jackson-core\\2.18.1\\jackson-core-2.18.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.burt",
+                    "name": "jmespath-core",
+                    "version": "0.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jmespath-core",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\burt\\jmespath-core\\0.6.0\\jmespath-core-0.6.0.jar"
+                        },
+                        {
+                            "name": "jmespath-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\burt\\jmespath-core\\0.6.0\\jmespath-core-0.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-http\\4.1.115.Final\\netty-codec-http-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-http\\4.1.115.Final\\netty-codec-http-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler-proxy\\4.1.115.Final\\netty-handler-proxy-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-handler-proxy\\4.1.115.Final\\netty-handler-proxy-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns\\4.1.115.Final\\netty-resolver-dns-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns\\4.1.115.Final\\netty-resolver-dns-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-http2\\4.1.115.Final\\netty-codec-http2-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-http2\\4.1.115.Final\\netty-codec-http2-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "brotli4j",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "brotli4j",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\brotli4j\\1.17.0\\brotli4j-1.17.0.jar"
+                        },
+                        {
+                            "name": "brotli4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\brotli4j\\1.17.0\\brotli4j-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "native-linux-x86_64",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native-linux-x86_64",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-linux-x86_64\\1.17.0\\native-linux-x86_64-1.17.0.jar"
+                        },
+                        {
+                            "name": "native-linux-x86_64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-linux-x86_64\\1.17.0\\native-linux-x86_64-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "native-linux-aarch64",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native-linux-aarch64",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-linux-aarch64\\1.17.0\\native-linux-aarch64-1.17.0.jar"
+                        },
+                        {
+                            "name": "native-linux-aarch64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-linux-aarch64\\1.17.0\\native-linux-aarch64-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "native-osx-x86_64",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native-osx-x86_64",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-osx-x86_64\\1.17.0\\native-osx-x86_64-1.17.0.jar"
+                        },
+                        {
+                            "name": "native-osx-x86_64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-osx-x86_64\\1.17.0\\native-osx-x86_64-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "native-osx-aarch64",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native-osx-aarch64",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-osx-aarch64\\1.17.0\\native-osx-aarch64-1.17.0.jar"
+                        },
+                        {
+                            "name": "native-osx-aarch64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-osx-aarch64\\1.17.0\\native-osx-aarch64-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "native-windows-x86_64",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "native-windows-x86_64",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-windows-x86_64\\1.17.0\\native-windows-x86_64-1.17.0.jar"
+                        },
+                        {
+                            "name": "native-windows-x86_64",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\native-windows-x86_64\\1.17.0\\native-windows-x86_64-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.13\\2.12.0\\scala-collection-compat_2.13-2.12.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-collection-compat_2.13\\2.12.0\\scala-collection-compat_2.13-2.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-epoll",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-epoll\\4.1.115.Final\\netty-transport-classes-epoll-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-transport-classes-epoll\\4.1.115.Final\\netty-transport-classes-epoll-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty.incubator",
+                    "name": "netty-incubator-transport-classes-io_uring",
+                    "version": "0.0.25.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-incubator-transport-classes-io_uring",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\incubator\\netty-incubator-transport-classes-io_uring\\0.0.25.Final\\netty-incubator-transport-classes-io_uring-0.0.25.Final.jar"
+                        },
+                        {
+                            "name": "netty-incubator-transport-classes-io_uring",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\incubator\\netty-incubator-transport-classes-io_uring\\0.0.25.Final\\netty-incubator-transport-classes-io_uring-0.0.25.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.14\\scala-reflect-2.13.14.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.14\\scala-reflect-2.13.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.5.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.5.12\\logback-core-1.5.12.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.5.12\\logback-core-1.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\google\\code\\findbugs\\jsr305\\3.0.2\\jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-socks\\4.1.115.Final\\netty-codec-socks-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-socks\\4.1.115.Final\\netty-codec-socks-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-dns",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-dns",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-dns\\4.1.115.Final\\netty-codec-dns-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-codec-dns\\4.1.115.Final\\netty-codec-dns-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns-classes-macos",
+                    "version": "4.1.115.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns-classes-macos",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns-classes-macos\\4.1.115.Final\\netty-resolver-dns-classes-macos-4.1.115.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns-classes-macos",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\netty\\netty-resolver-dns-classes-macos\\4.1.115.Final\\netty-resolver-dns-classes-macos-4.1.115.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.aayushatharva.brotli4j",
+                    "name": "service",
+                    "version": "1.17.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "service",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\service\\1.17.0\\service-1.17.0.jar"
+                        },
+                        {
+                            "name": "service",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\aayushatharva\\brotli4j\\service\\1.17.0\\service-1.17.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.14",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ABC\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.14\\scala-library-2.13.14-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

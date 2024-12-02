@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(Gatling/testOnly *.CsvFeederSimulation, Some(b8943d32-a111-4682-89d8-0f2701f8889a), Some(CommandSource(console0)))[0m
-[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Gatling / testOnly[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\ABC\Desktop\gatling\target\scala-2.13\test-classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mSimulation CsvFeederSimulation successful.[0m
-[0m[[0m[0minfo[0m] [0m[0mSimulation(s) execution ended.[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 15 s, completed Dec 1, 2024, 12:34:40 AM[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
